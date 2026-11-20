@@ -3,6 +3,7 @@ points = 0
 level = 1
 
 print("Hi there! Enter your name first to get started.")
+print()
 name = input("Name: ").upper()
 print()
 
