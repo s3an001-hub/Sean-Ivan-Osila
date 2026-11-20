@@ -1,13 +1,14 @@
 again = "yes"
 points = 0
 level = 1
+
+print("Hi there! \nEnter your name first to get started.")
 name = input("Enter your name: ").upper()
-section = input("Enter your Grade/Section: ").upper()
+print()
 
 while again == "yes":
     print("---------- PYTHON LESSONS -----------")
     print("Name:", name)
-    print("Section:", section)
     print("_____________________________________")
     print("Points:", points)
     print("Unlocked: lessons 1 to", level)
