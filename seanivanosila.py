@@ -2,8 +2,8 @@ again = "yes"
 points = 0
 level = 1
 
-print("Hi there! \nEnter your name first to get started.")
-name = input("Enter your name: ").upper()
+print("Hi there! Enter your name first to get started.")
+name = input("Name: ").upper()
 print()
 
 while again == "yes":
